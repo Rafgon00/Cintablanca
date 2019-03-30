@@ -1,0 +1,45 @@
+body {
+    height: 100vh ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.padre {
+    border: solid 1px red;
+    width: 35%;
+    height: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.padre2 {
+    border: solid 1px blue;
+    width: 35%;
+    height: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.hijo {
+    border: solid 1px rgb(29, 201, 149);
+    width: 15%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hija {
+    border: solid 1px rgb(209, 45, 182);
+    width: 15%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
